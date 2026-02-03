@@ -1,0 +1,80 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    border: none;
+    box-sizing: border-box;
+    font-size: large;
+}
+html {
+    background: #CCC;
+    background: linear-gradient(90deg, rgba(204, 204, 204, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(0, 0, 0, 1) 100%);
+}
+main{
+    height: 100vh;
+    margin-top: 5%;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+
+    
+}
+
+h1 {
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #ccc;
+}
+#calc{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+    border: 4px dotted red;
+    background-color: #ccc;
+    margin-top: 5%;
+    transform: scale(1.2)
+}
+
+#divdisplay{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    border: 2px solid red;
+    background: #8c7979;
+
+}
+#display{
+    width: 220px;
+    text-align: right;
+    font-size: 20px;
+}
+#divteclas{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    width: 220px;
+    flex-wrap: wrap;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #aaa;
+    border: 3px solid black;
+    border-radius: 10px;
+    font-weight: bold;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    margin: 2px;
+    color: rgb(255, 26, 26)  
+    
+}
+.teclaop{
+    background-color: #ff0000;
+    border-color: rgb(0, 0, 0);
+    color: #ccc;
+}
