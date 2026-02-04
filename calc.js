@@ -7,6 +7,9 @@ const fpar=document.querySelector("#fpar")
 const zerar=document.querySelector("#zerar")
 const cop=document.querySelector("#cop")
 const res=document.querySelector("#tigual")
+const gaveta=document.querySelector("#gaveta")
+const calc=document.querySelector("#calc")
+const img_calc=document.querySelector("#img_calc")
 
 console.log(nums)
 console.log(op)
@@ -66,3 +69,11 @@ res.addEventListener("click", (evt)=>{
     }
 })
 
+gaveta.addEventListener("click", (evt)=>{
+    calc.classList.toggle("calc_exibir")
+    if(calc.classList.contains("calc_exibir")){
+        img_calc.setAttribute("src", "seta_esquerda.png")
+    }else{
+        img_calc.setAttribute("src", "seta_direita.png")
+    }
+})
